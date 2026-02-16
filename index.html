@@ -31,6 +31,21 @@ header {
     text-shadow: 0 0 10px #ff0000;
 }
 
+.fancy-header {
+    /* Градієнтний фон від зеленого до білого */
+    background: linear-gradient(to right, green, white);
+    
+    /* Тінь для тексту жовта */
+    color: black; /* колір тексту для контрасту */
+    text-shadow: 2px 2px 5px yellow;
+
+    /* Додаткове оформлення */
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
 .section {
     display: flex;
     gap: 20px;
@@ -117,8 +132,8 @@ footer {
 
 <div class="container">
 
-<header>
-    1x1x1x1 — Roblox Lore
+<header class="fancy-header">
+    1x1x1x1 Lore
 </header>
 
 <!-- 1 Блок -->
